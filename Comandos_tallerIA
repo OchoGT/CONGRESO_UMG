@@ -1,0 +1,11 @@
+##Comandos utilizados para el taller de IA
+
+##instalar herramienta de metadatos en kali
+sudo su
+sudo apt update && sudo apt install libimage-exiftool-perl -y
+sudo apt update
+sudo apt install git -y
+git clone https://github.com/OchoGT/CONGRESO_UMG.git
+cd CONGRESO_UMG
+
+exiftool imagen.png | grep -i -E "openai|google|c2pa|gpt|ai|synth"
